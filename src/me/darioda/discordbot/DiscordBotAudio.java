@@ -4,14 +4,8 @@ import sx.blah.discord.handle.impl.events.MessageReceivedEvent;
 import sx.blah.discord.handle.obj.IVoiceChannel;
 import sx.blah.discord.util.MissingPermissionsException;
 import sx.blah.discord.util.audio.AudioPlayer;
-import sx.blah.discord.util.audio.AudioPlayer.Track;
 
 import java.io.File;
-
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-
-import me.darioda.discordbot.thread.DiscordBotLeaveVoiceChannel;
 
 public class DiscordBotAudio {
 
